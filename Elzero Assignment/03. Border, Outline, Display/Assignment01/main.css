@@ -1,0 +1,33 @@
+div{
+  
+background-color: lightgrey;
+outline:5px solid black;
+border-width:5px;
+display: inline-block;
+padding: 10px 5px;
+margin:20px;
+
+}
+.a{
+
+  border:5px solid red;
+  
+  
+}
+.b{
+  
+  
+  border-style:solid;
+  border-color:blue green;
+  
+  
+}
+.c{
+  
+  
+  border-style:dashed;
+  border-color:red green blue yellow;
+  
+
+  
+}
