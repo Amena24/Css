@@ -1,0 +1,13 @@
+div{
+background-color: lightgray;
+width:400px;
+margin: 15px;
+padding: 10px;
+}
+.shape3{
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
