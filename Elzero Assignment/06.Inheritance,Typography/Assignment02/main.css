@@ -1,0 +1,17 @@
+p{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px auto;
+  font-size: 50px;
+}
+.shape-1{
+font-family: 'Cairo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.shape-2{
+font-family: 'Cairo', sans-serif;
+}
+.shape-3{
+  font-family: 'Cairo', sans-serif;
+font-family: 'Jomhuria', serif;
+}
