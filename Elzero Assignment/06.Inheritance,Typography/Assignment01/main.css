@@ -1,0 +1,17 @@
+div{
+
+text-align: center;
+text-transform: capitalize;
+padding: 20px;
+font-size: 20px;
+border: 5px solid orangered;
+margin: 30px
+}
+div p{
+  border:inherit;
+  padding:inherit;
+  background-color: lightgrey;
+}
+.shape-2{
+  border-color: seagreen;
+}
