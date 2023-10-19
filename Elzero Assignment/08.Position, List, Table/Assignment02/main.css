@@ -1,0 +1,37 @@
+div{
+  width: 400px;
+  background-color: lightgray;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orangered royalblue;
+  
+}
+span{
+ position: absolute;
+ background-color: royalblue;
+ width: 30px;
+ color: white;
+}
+.top-left{
+  top:5px;
+  left:255px;
+  border-right: 3px solid orangered;
+}
+.bottom-left{
+  top:150px;
+  left:255px;
+  border-right: 3px solid orangered;
+}
+.top-right{
+  top:5px;
+  left:695px;
+  border-left: 3px solid orangered;
+}
+.bottom-right{
+  top:150px;
+  left:695px;
+  border-left: 3px solid orangered;
+}
