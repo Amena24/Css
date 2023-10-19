@@ -1,0 +1,33 @@
+img{
+  width: 50px;
+  height: 60px;
+}
+table{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  border-spacing: 2px;
+}
+thead td{
+  color: white;
+  background-color: darkslategray;
+  padding:10px;
+}
+tbody td{
+padding: 20px;
+background-color: #EEE;
+}
+button{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding:3px;
+  width:50px;
+  border: 0px;
+}
+.view{
+  background-color: dodgerblue;
+}
+.delete{
+    background-color: crimson;
+  }
