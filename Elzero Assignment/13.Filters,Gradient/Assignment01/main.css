@@ -1,0 +1,28 @@
+div{
+    width:600px;
+    margin:20px auto;
+    background-color: #eee;
+    text-align:center;
+    padding: 20px;
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+    
+    top:150px;
+  }
+  div::first-letter{
+    color: orangered;
+  }
+  div::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width:660px;
+    height: 100px;
+    margin: 20px auto;
+    left:-9px;
+    top:-30px;
+    background-image: linear-gradient(to right,orangered 20%,royalblue 20%, royalblue 40%,seagreen 40%,seagreen 60%,mediumvioletred 60%,mediumvioletred 80%,blueviolet 80%);
+ 
+  }
