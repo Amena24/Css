@@ -1,0 +1,30 @@
+input{
+  width:600px;
+  padding: 20px;
+  background-color: #eee;
+  outline:none;
+  border: 1px solid #eee;
+}
+  div{
+    margin:20px auto;
+    width:600px;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    top:130px;
+    left:0px;
+    caret-color: orangered;
+    outline: #eee;
+  
+  }
+  
+  div:after{
+    content: "";
+    position: absolute;
+    width:640px;
+    height: 3px;
+    top:80px;
+    left:20px;
+    background-image: linear-gradient(to right,orangered 50%,seagreen 50%);
+ 
+  }
