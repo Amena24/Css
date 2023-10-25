@@ -1,0 +1,23 @@
+div{
+  margin:50px auto;
+  width:400px;
+  height: 150px;
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+  transition-property: margin-top;
+  transition-duration: 500ms;
+}
+p{
+  background-color: lightgrey;
+  padding: 20px;
+  transition-property: margin-top;
+  transition-delay: 500ms;
+  
+}
+div:hover{
+  margin-top:20px;
+}
+div:hover p {
+ margin-top:30px;
+}
