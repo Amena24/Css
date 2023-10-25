@@ -1,0 +1,18 @@
+div{
+  background-color: #eee !important;
+  position: relative;
+  width:400px;
+  border: none !important;
+  margin: 10px auto !important;
+  font-size: 20px !important;
+  text-align: center;
+  color:#eee !important;
+}
+div:after{
+  content: "Elzero";
+  position: absolute;
+  color: black;
+  text-align: center;
+  left:190px;
+  
+}
