@@ -1,0 +1,90 @@
+div{
+  display: inline-block;
+margin: 50px;
+}
+.one{
+  width: 200px;
+  position: relative;
+  height: 200px;
+  background-color: #eee;
+  margin: 20px auto;
+  margin-left: 50px;
+}
+.one:after{
+  content:"Basic";
+  position: absolute;
+  background-color: royalblue;
+  border-radius: 10px ;
+  margin: 20px auto;
+  margin-left: 25px;
+  color:white;
+  line-height: 30px;
+  text-align: center;
+  width:150px;
+  height:30px;
+}
+.one:before{
+  content: "Free";
+  position: absolute;
+  background-color: lightgray;
+  width:130px;
+  height:130px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 120px;
+  margin:60px auto ;
+  margin-left: 40px;
+}
+.or{
+  width:2px;
+  height: 200px;
+  position: relative;
+  background-color: royalblue;
+  top: 33px;
+  
+}
+.or:after{
+  content:"Or";
+  background-color: royalblue;
+  position: absolute;
+  color:white;
+  text-align: center;
+  line-height: 28px;
+  top:40%;
+  left:-13px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.two{
+  width: 200px;
+  position: relative;
+  height: 200px;
+  background-color: #eee;
+  margin: 20px auto;
+}
+.two:after{
+  content:"Pro";
+  position: absolute;
+  background-color: royalblue;
+  border-radius: 10px ;
+  margin: 20px auto;
+  margin-left: 25px;
+  color:white;
+  line-height: 30px;
+  text-align: center;
+  width:150px;
+  height:30px;
+}
+.two:before{
+  content: "$30";
+  position: absolute;
+  background-color: lightgray;
+  width:130px;
+  height:130px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 120px;
+  margin:60px auto ;
+  margin-left: 40px;
+  }
