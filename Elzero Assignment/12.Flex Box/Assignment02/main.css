@@ -1,0 +1,19 @@
+.parent{
+  display: flex;
+  width: 600px;
+  height: 300px;
+  align-content: space-between;
+  margin: 20px auto;
+  background-color: #eee;
+  color: white;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+}
+.parent div{
+  width:180px;
+  height: 20px;
+  padding: 5px;
+  background-color: palevioletred;
+}
