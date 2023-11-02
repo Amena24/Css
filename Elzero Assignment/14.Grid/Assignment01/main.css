@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: 20px auto;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: 50px auto;
+  gap:20px 20px;
+  
+ 
+}
+.grid div{
+  background-color: slategray;
+ counter-increment: div;
+  text-align: center;
+  align-content: center;
+  display: grid;
+  font-size: 1.3em;
+}
+.grid div::after{
+  content: "Element "  counter(div);
+  color :white;
+  
+  
+}
