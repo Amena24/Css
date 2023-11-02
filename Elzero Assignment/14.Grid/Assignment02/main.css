@@ -1,0 +1,45 @@
+.layout{
+  display: grid;
+  width: 800vw;
+  height: 600vh;
+  margin: 20px auto;
+  grid-template-rows: 50px auto 50px;
+  grid-template-columns: repeat(6,1fr);
+  background-color: #eee;
+  color: white;
+  grid-template-areas: "head head head head head head" "section section section section side side" "foot foot foot foot foot foot"
+}
+header{
+  grid-area: head;
+  background-color: deepskyblue;
+  
+}
+section{
+  grid-area: section;
+  background-color: orangered;
+}
+aside{
+  grid-area: side;
+  background-color: dimgray;
+}
+footer{
+  grid-area: foot;
+  background-color: seagreen;
+}
+header,section,aside,footer{
+  display: grid;
+  color: white;
+  padding: 15px;
+}
+header::after{
+  content: "Header";
+}
+section::after{
+  content: "Section";
+}
+aside::after{
+  content: "Aside";
+}
+footer::after{
+  content: "Footer";
+}
