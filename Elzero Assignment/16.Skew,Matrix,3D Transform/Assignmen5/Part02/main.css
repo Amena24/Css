@@ -1,0 +1,51 @@
+div{
+  background-color: mediumvioletred;
+  color: white;
+  font-size: 30px;
+  margin: 20px auto;
+  width: 400px;
+  height:400px;
+  margin-top: 400px;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+}
+div::after{
+  content: "Front";
+  position: absolute;
+  color:white;
+  width: inherit;
+  height: inherit;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumvioletred;
+  bottom:0px;
+  right:0px;
+ backface-visibility: hidden;
+}
+div::before{
+  content: "Back";
+  position: absolute;
+  color:white;
+  width: inherit;
+  height: inherit;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  top:0px;
+  left:0px;
+  transform: rotateX(180deg);
+  backface-visibility: hidden;
+}
+div:hover{
+  transform: rotateX(-180deg);
+}
+
+
+
